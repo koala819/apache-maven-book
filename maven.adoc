@@ -1174,7 +1174,7 @@ première mouture de Maven.
 ==== Dépôt de bibliothèques
 
 La configuration par défaut de Maven utilise le dépôt (ou _référentiel_)
-de bibliothèques http://repo1.maven.org/maven2/. Ce site, maintenu par
+de bibliothèques https://repo.maven.apache.org/maven2/. Ce site, maintenu par
 la communauté Maven, compte plusieurs dizaines de gigaoctets de
 bibliothèques libres de diffusion, et il est mis à jour plusieurs fois par
 jour. Nous verrons au fil des prochains chapitres comment utiliser
@@ -1185,7 +1185,7 @@ du sous-répertoire dédié à la bibliothèque indiquée :
 
 <URL du dépôt> / <groupId en tant que chemin> / <artifactId> / <version>
 
-Pour notre dépendance à JavaMail, nous obtenons : http://repo1.maven.org/maven2/javax/mail/mail/1.4/.
+Pour notre dépendance à JavaMail, nous obtenons : https://repo.maven.apache.org/maven2/javax/mail/mail/1.4/.
 
 .Figure 02-01
 image:02-01.png[align="center"]
